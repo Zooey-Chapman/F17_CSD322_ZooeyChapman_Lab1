@@ -22,7 +22,13 @@ public class UserBean implements Serializable {
    public void setGender(String newValue) { gender = newValue; }
 
    public String getPassword() { return password; }
-   public void setPassword(String newValue) { password = newValue; }   
+   public void setPassword(String newValue) { password = newValue; }  
+   
+   /*
+   private static selectItem[] gender = {
+       new selectItem("Male"),
+       new selectItem("Female"),
+   }; */
 
     /**
      * @return the date

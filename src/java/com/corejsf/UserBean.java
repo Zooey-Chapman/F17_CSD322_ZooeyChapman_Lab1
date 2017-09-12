@@ -11,11 +11,15 @@ import javax.enterprise.context.SessionScoped;
 @SessionScoped
 public class UserBean implements Serializable {
    private String name;
+   private String gender;
    private String password;
    private Date date;
 
    public String getName() { return name; }   
    public void setName(String newValue) { name = newValue; }
+   
+   public String getGender() { return gender; }   
+   public void setGender(String newValue) { gender = newValue; }
 
    public String getPassword() { return password; }
    public void setPassword(String newValue) { password = newValue; }   
